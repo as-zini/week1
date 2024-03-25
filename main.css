@@ -1,0 +1,124 @@
+body{
+  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("bg.jpg");
+  background-size: cover;
+  position: relative;
+  --point-color:#ffd1b7;
+  height: 700px;
+}
+
+.inner{
+  margin: auto 0;
+}
+
+h1{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: white;
+  font-weight: 400;
+  font-size: x-large;
+}
+
+h2{
+  text-align: center;
+  color: white;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+.id,
+.password,
+.sign-in{
+  background-color: rgba(255,255,255, .3);
+  width: 300px;
+  margin: 7px;
+  padding: 15px ;
+  border-radius: 30px;
+  border: 0 solid white;
+}
+
+.id::placeholder,
+.password::placeholder{
+  color: white;
+}
+
+.id,
+.password{
+  background-color: rgba(255,255,255, .3);
+}
+
+
+.sign-in{
+  width: 330px;
+  background-color: var(--point-color);
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-etc{
+  display: flex;
+  width: 330px;
+
+}
+
+.checkbox{
+  accent-color: var(--point-color);
+  color: white;
+  width: 20px;
+  height: 20px;
+}
+
+.remember-password{
+  display: flex;
+  flex-grow: 1;
+  color: var(--point-color);
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.remember-text{
+  margin: 10px;
+}
+
+.forgot-password{
+  color: white;
+}
+
+.sign-in-with{
+  position: absolute;
+  width: 330px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+h3{
+  text-align: center;
+  color: white;
+  font-weight: 200;
+  font-size: medium;
+}
+
+.sns-button{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+.sns{
+  width: 210px;
+  padding: 15px;
+  border: 0 solid white;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.sns:hover{
+  background-color: rgba(0,0,0, .2);
+}
